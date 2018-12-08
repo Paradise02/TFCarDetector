@@ -10,7 +10,7 @@ Steps:
 
 1. Installation from ReadMe
 
-2. Proto
+2. Install Protobuf
 
 3. Prepare Dataset 
 
