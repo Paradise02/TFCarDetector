@@ -1,0 +1,9 @@
+Cython
+contextlib2
+pillow
+lxml
+matplotlib
+numpy
+tensorflow
+absl-py
+protobuf
