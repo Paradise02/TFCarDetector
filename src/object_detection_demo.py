@@ -119,7 +119,9 @@ def detect_object_in_images(TEST_IMAGE_PATHS):
 
 
 if __name__ == "__main__":
-    MODEL_NAME = 'ssd_mobilenet_v1_coco_2017_11_17'
+    # MODEL_NAME = 'ssd_mobilenet_v1_coco_2017_11_17'
+    # MODEL_NAME = 'ssd_mobilenet_v1_coco_2018_01_28'
+    MODEL_NAME = 'faster_rcnn_resnet101_coco_2018_01_28'
     FROZEN_GRAPH_NAME = 'frozen_inference_graph.pb'
     # Path to frozen detection graph. This is the actual model that is used for the object detection.
     PATH_TO_FROZEN_GRAPH = MODEL_NAME + '/' + FROZEN_GRAPH_NAME

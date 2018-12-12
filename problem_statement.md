@@ -21,6 +21,12 @@ Your group must meet often to discuss the approaches to modeling and data prepar
 + You can use a pretrained model based on one dataset and then use the other one for object detection and fine tuning your model. 
 + Please note that a labeled image dataset for object detection requires the positional information of each of the boxes in an image and the type of the object it encloses.
 
+### Notes 2:
++ Just try to run any pretrained model and evaluate some sample images.
++ Try running tensorboard and display the output.
++ The project is all about exploring, so no worry if you couldn't retrain.
++ Come and present what you have learnt from the academic papers and by running the package.
+
 #### References:
 + [Tensor Flow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 + [Fast R-CNN Paper](https://arxiv.org/pdf/1504.08083.pdf)

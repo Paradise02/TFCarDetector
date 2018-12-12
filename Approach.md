@@ -21,9 +21,9 @@ COCO + Faster - RCNN + model from scratch
 
 3. setup the python path
 
-        $ SLIM_PATH=/Users/nishant.gandhi/Project/models/research/slim
-        $ RESEARCH_PATH=/Users/nishant.gandhi/Project/models/research
-        $ OBJECT_DETECTION_PATH=/Users/nishant.gandhi/PycharmProjects/TFCarDetector/object_detection
+        $ export SLIM_PATH=/Users/nishant.gandhi/Project/models/research/slim
+        $ export RESEARCH_PATH=/Users/nishant.gandhi/Project/models/research
+        $ export OBJECT_DETECTION_PATH=/Users/nishant.gandhi/PycharmProjects/TFCarDetector/object_detection
 
         $ export PYTHONPATH=$PYTHONPATH:$SLIM_PATH:$RESEARCH_PATH:$OBJECT_DETECTION_PATH
 
